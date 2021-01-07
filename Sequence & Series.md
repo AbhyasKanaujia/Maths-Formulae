@@ -2,9 +2,9 @@
 
 [TOC]
 
-[All Mathematics Formula by Abhyas here](./README.md)
+[All Mathematics Formula by Abhyas here](README.md)
 
-Please see [README](./README.md#README) if this is the first time you are here.
+Please see [README](README.md#README) if this is the first time you are here.
 
 ## Formula List
 
@@ -175,7 +175,7 @@ eg. $1, 2, 4, 8, 16, ...$
 ### General Term
 
 If $a$ if the first term and $r$ the common ratios then series is:
-$a, ar, ar^2, a^3, ../$
+$a, ar, ar^2, a^3, .$
 
 General term =
 |$T_n=ar^{n-1}$|
@@ -395,6 +395,6 @@ $\sum_{r=1}^n{r^3}=1^3+2^3+3^3+4^3+...$ upto $n$ terms= $\left(\frac{n(n+1)}{2}\
 
 ## Licensing and Links
 
-[All Mathematics Formula by Abhays here](./README.md)
+[All Mathematics Formula by Abhays here](README.md)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. 

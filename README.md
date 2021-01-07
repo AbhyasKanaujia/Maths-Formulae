@@ -4,20 +4,20 @@ Please see README below if this is the first time you are here.
 
 ## Topics
 
-1. [Memory Ad ons](./Memory_adons.md)
-2. [Sets](./sets.md)
-3. [Inequality](./inequality.md)
-4. [Logarithm](./logarithm.md)
-5. [Matrix](./matrix.md)
-6. [Sequence & Series](./sequence_series.md)
-7. [Permutation and Combination](./permutation_combination.md)
-8. [Determinants](./determinant.md)
-9. [Binomial Theorem](./binomial_theorem.md)
-10. [Relation and Function](./relations_functions.md)
-11. [Basic Geometry](./geometry.md)
-12. [Trigonometry](./trigonometry.md)
+1. [Memory Ad ons](Memory_adons.md)
+2. [Sets](sets.md)
+3. [Inequality](inequality.md)
+4. [Logarithm](logarithm.md)
+5. [Matrix](matrix.md)
+6. [Sequence & Series](sequence_series.md)
+7. [Permutation and Combination](permutation_combination.md)
+8. [Determinants](determinant.md)
+9. [Binomial Theorem](binomial_theorem.md)
+10. [Relation and Function](relations_functions.md)
+11. [Basic Geometry](geometry.md)
+12. [Trigonometry](trigonometry.md)
 13. Calculus
-    1. [Limit](./limit.md)
+    1. [Limit](limit.md)
 
 ## README
 
