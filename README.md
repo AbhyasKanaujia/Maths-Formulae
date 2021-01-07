@@ -1,23 +1,23 @@
 # Mathematics Formula
 
-Please see [README](./maths_formula#README) if this is the first time you are here.
+Please see README below if this is the first time you are here.
 
 ## Topics
 
-1. [Memory Ad ons](./Memory_adons)
-2. [Sets](./sets)
-3. [Inequality](./inequality)
-4. [Logarithm](./logarithm)
-5. [Matrix](./matrix)
-6. [Sequence & Series](./sequence_series)
-7. [Permutation and Combination](./permutation_combination)
-8. [Determinants](./determinant)
-9. [Binomial Theorem](./binomial_theorem)
-10. [Relation and Function](./relations_functions)
-11. [Basic Geometry](./geometry)
-12. [Trigonometry](./trigonometry)
+1. [Memory Ad ons](./Memory_adons.md)
+2. [Sets](./sets.md)
+3. [Inequality](./inequality.md)
+4. [Logarithm](./logarithm.md)
+5. [Matrix](./matrix.md)
+6. [Sequence & Series](./sequence_series.md)
+7. [Permutation and Combination](./permutation_combination.md)
+8. [Determinants](./determinant.md)
+9. [Binomial Theorem](./binomial_theorem.md)
+10. [Relation and Function](./relations_functions.md)
+11. [Basic Geometry](./geometry.md)
+12. [Trigonometry](./trigonometry.md)
 13. Calculus
-    1. [Limit](./limit)
+    1. [Limit](./limit.md)
 
 ## README
 
@@ -48,21 +48,6 @@ This is not a book. The book is good. No doubt. What I am trying to do here is t
 I would recommend bookmarking this page because most probably you won't find it on Google. Press `ctrl + D` on your PC.
 
 This is the homepage. I will link all the new notes that I write here as I study them. All individual pages will have links to come back to this page at at the bottom.
-
-### Discussion and Commenting
-
-#### Discussion
-
-Discussion should be done where it is most relevant. This is where you get help or give your suggestions.
-
-You can comment on any specific part of any page by highlighting/selecting it and typing your comment on the box that appears. You might need to be signed up to HackMD to use this feature. This is where you should discuss about the topic eg. improvement/correction/suggestion.
-Do not use this section for thanking/ranting.
-
-#### Comments
-
-You can use the comment at the bottom of every page to make any comment that is not directly related to the topic. You might need be signed up to Disqus though Google/Facebook/email.
-
-Comments can contain thanking/ranting. Do not use this section to discuss related to topic since it might get lost in the comments and would be harder to pin point where exactly you need help/have suggestions for.
 
 ### Licensing
 
