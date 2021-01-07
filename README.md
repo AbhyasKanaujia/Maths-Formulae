@@ -11,7 +11,7 @@ Please see README below if this is the first time you are here.
 5. [Matrix](matrix.md)
 6. [Sequence & Series](sequence_series.md)
 7. [Permutation and Combination](permutation_combination.md)
-8. [Determinants](determinant.md)
+8. [Determinants](determinants.md)
 9. [Binomial Theorem](binomial_theorem.md)
 10. [Relation and Function](relations_functions.md)
 11. [Basic Geometry](geometry.md)
