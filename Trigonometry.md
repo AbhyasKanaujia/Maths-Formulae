@@ -2,18 +2,12 @@
 
 [TOC]
 
-[All Mathematics Formula by Abhyas here](README.md)
-
-Please see [README](README.md#README) if this is the first time you are here.
-
-[Basic Geometry notes here](geometry)
-
-## From Pythgorous Theorem
-
+## From Pythagoras Theorem
 $H^2=B^2+P^2$
 $\sin^2\theta+\cos^2\theta=1$
 $\csc^2\theta-\cot^2\theta=1$
 $\sec^2\theta-\tan^2\theta=1$
+
 
 $\sin^4\theta+\cos^4\theta=1-2\sin^2\theta\cos^2\theta$
 $\sin^4\theta-\cos^4\theta=\sin^2\theta-\cos^2\theta$
@@ -22,13 +16,12 @@ $\sin^6\theta+\cos^6\theta=1-3\sin^2\theta\cos^2\theta$
 $(\sin\theta\pm\cos\theta)^2=1\pm\sin2\theta$
 
 ## Circular Function
+<img src="https://i.imgur.com/EnNpCiI.png" style="zoom: 67%;" />
 
-![](https://i.imgur.com/EnNpCiI.png)
 
 360, 720, 1080, 1440, 1800
 
-### nPI+-X
-
+### $n\pi\pm\theta$
 <small>_Because both $\sin$ and $\cos$ negaive in IV quadrent, so same behaviour. $\tan$ will be positive._</small>
 $\sin(n\pi+\theta)=(-1)^n\sin\theta$
 $\cos(n\pi+\theta)=(-1)^ncos\theta$ 
@@ -41,20 +34,18 @@ $\sin(n\pi-\theta)=(-1)^{n-1}\sin\theta$
 $\cos(n\pi-\theta)=(-1)^ncos\theta$ 
 $\tan(n\pi-\theta)=-\tan\theta$
 
-### nPI
-
+### $n\pi$
 $\sin(n\pi)=0$ <small>_because perpendicular is 0_</small>
 $\cos(n\pi)=(-1)^n$ <small>_because base eighter left or right of y axis_</small>
 $\tan(n\pi)=0$ <small>_because perpendicular is 0_</small>
 
-### -x
-
+### $-\theta$
 <small>_Because only $\cos$ is positive in IV_</small>
 $sin(-\theta)=-\sin\theta$
 $cos(-\theta)=\cos\theta$
 $tan(-\theta)=-\tan\theta$
 
-### Sum and difference Identities (A+B)
+### Sum and difference Identities $(A+B)$
 
 $\sin(A+B)=\sin A\cos B+\cos A\sin B$ 
 $\sin(A-B)=\sin A\cos B - \cos A \sin B$
@@ -68,34 +59,34 @@ $\tan(A-B)= \frac{\tan A - \tan B}{1 + \tan A \tan B}$
 $\cot(A+B) = \frac{\cot B \cot A - 1}{\cot B + cot A}$
 $\cot(A - B) = \frac{\cot B \cot A +1}{\cot B - \cot A}$
 
-### Product of (A+B) and (A-B)
+### Product of $(A+B)$ and $(A-B)$
 
 $\sin(A+B)\sin(A-B) = \sin^2A-\sin^2B$
 $\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad=\cos^2B-cos^2A$
 $cos(A+B)cos(A-B)=\cos^2A-sin^2B$
 $\tan(A+B)\tan(A-B)=\frac{\tan^2A-\tan^2B}{1-\tan^2A\tan^2B}$
 
-### Double Angle Identities 2A
+### Double Angle Identities $2A$
 
 $\sin2\theta=2\sin\theta\cos\theta$
-$\quad\quad\, \, \, \, =\frac{2\tan A}{1+\tan^2A}$ 
+$\quad\quad\,\,\,\,=\frac{2\tan A}{1+\tan^2A}$ 
 $\cos2\theta=\cos^2\theta-\sin^2\theta$
-$\quad\quad\, \, \, \, =2\cos^2\theta-1$ 
-$\quad\quad\, \, \, \, =1-2\sin^2\theta$ 
-$\quad\quad\, \, \, \, =\frac{1-\tan^2 A}{1+\tan^2A}$ 
+$\quad\quad\,\,\,\,=2\cos^2\theta-1$ 
+$\quad\quad\,\,\,\,=1-2\sin^2\theta$ 
+$\quad\quad\,\,\,\,=\frac{1-\tan^2 A}{1+\tan^2A}$ 
 $\tan2\theta=\frac{2\tan\theta}{1-\tan^2\theta}$
 
 $\tan A + cotA = \frac{1}{\sin A \cos A}$
-$\quad\quad\quad\quad\quad\, \, \, \, \, =\frac{2}{\sin2A}$
-$\quad\quad\quad\quad\quad\, \, \, \, \, =2\csc2A$
+$\quad\quad\quad\quad\quad\,\,\,\,\,=\frac{2}{\sin2A}$
+$\quad\quad\quad\quad\quad\,\,\,\,\,=2\csc2A$
 
-### Triple Angle Identities 3A
+### Triple Angle Identities $3A$
 
 $\sin3A=3\sin A -4\sin^3A$
 $\cos3A=4\cos^3A - 3 \cos A$
 $\tan3A = \frac{3\tan A - tan^3 A}{1 - 3 \tan^2A}$
 
-### Half Angle Identities X/2
+### Half Angle Identities $\frac{x}{2}$
 
 $\sin\frac{x}{2}=\pm\sqrt\frac{1-\cos x}{2}$
 $\cos\frac{x}{2}=\pm\sqrt\frac{1+\cos x}{2}$
@@ -118,20 +109,20 @@ $\cos18=\frac{\sqrt{10+2\sqrt5}}{4}=\sin72^\circ$
 $\sin36^\circ=\frac{\sqrt{10-2\sqrt5}}{4}=\cos54^\circ$
 $\cos36^\circ=\frac{\sqrt5+1}{4}=\sin54^\circ$
 
-### A, A+60, A-60 form
+### $A, A+60, A-60$ form
 
 $\sin A\sin(A+60^\circ)\sin(A-60^\circ)=\frac{1}{4}\sin3A$
 $\cos A\cos(A+60^\circ)\cos(A-60^\circ)=\frac{1}{4}\cos3A$
 $\tan A+\tan(A+60^\circ)-\tan(A-60^\circ)=\tan3A$
 
-### cosA cos2A cos4A...
+### $\cos A \cos2A \cos4A...$
 
 $\cos A\cos2A\cos4A=\frac{sin8A}{2^3\sin A}$
 
 *Numerator: $\sin(2\times$ largest angle$)$
 Denominator: $2$<sup>number of cos terms</sup>$\times \sin($ smallest angle$)$*
 
-### tan Or cot and  x/2 Or (Pi/2 + x)
+### $\tan$ Or $\cot$ and  $\frac{x}{2}$ Or $(\frac{\pi}{2} + x)$
 
 $\frac{1+\cos\theta}{\sin\theta}=\cot\frac{\theta}{2}$
 $\frac{1-\cos\theta}{\sin\theta}=\tan\frac{\theta}{2}$
@@ -148,14 +139,15 @@ $\frac{1-\cos\theta}{1+\cos\theta}=\tan^2(\frac{\pi}{4}+\frac{\theta}{2})$
 $\frac{\cos\theta +sin\theta}{\cos\theta-\sin\theta}=\tan(\frac{\pi}{4}+\theta)$
 $\frac{\cos\theta -sin\theta}{\cos\theta+\sin\theta}=\tan(\frac{\pi}{4}-\theta)$
 
-### Range of Trigonometric expressoins
+
+### Range of Trigonometric expressions
 
 $-1\le\sin\theta\le1$
 $-1\le\cos\theta\le1$
 $-\infty\le\tan\theta\le\infty$
 
-$\sec\theta\in(-\infty, -1]\cup[1, \infty)$
-$\csc\theta\in(-\infty, -1]\cup[1, \infty)$
+$\sec\theta\in(-\infty,-1]\cup[1, \infty)$
+$\csc\theta\in(-\infty,-1]\cup[1, \infty)$
 
 $0\le\sin^2\theta\le1$
 $0\le\cos^2\theta\le1$
@@ -163,7 +155,7 @@ $0\le\tan^2\theta\le1$
 
 $-\sqrt{a^2+b^2} \le (a\cos \theta + b \sin \theta) \le \sqrt{a^2+b^2}$
 
-## Period of Trigonometic funtion
+## Period of Trigonometric function
 
 Period: $\frac{2\pi}{|a|}$
 $\quad\sin(ax+b)$
@@ -177,7 +169,7 @@ $\quad\cot(ax+b)$
 
 ## Trigonometric Equation
 
-### Type 1 x = 0
+### Type 1: $x = 0$
 
 $\sin x = 0 \implies x = n\pi$
 $\tan x = 0 \implies x = n\pi$
@@ -188,13 +180,13 @@ $\cot x = 0 \implies x = (2n+1)\frac{\pi}{2}$
 $\sec x = 0 \implies x$ is not defined
 $\csc x = 0 \implies x$ is not defined
 
-### Type 2 theta = alpha
+### Type 2: $\theta = \alpha$
 
 $sin\theta=\sin\alpha \implies x = n\pi+(-1)^n\alpha$
 $cos\theta=\cos\alpha \implies x = 2n\pi\pm\alpha$
 $tan\theta=\tan\alpha \implies x = n\pi+\alpha$
 
-### Type 3 squared
+### Type 3: squared
 
 $\sin^2\theta=\sin^2\alpha\implies x=n\pi\pm\alpha$
 $\cos^2\theta=\cos^2\alpha\implies x=n\pi\pm\alpha$
@@ -202,9 +194,9 @@ $\tan^2\theta=\tan^2\alpha\implies x=n\pi\pm\alpha$
 
 ## Properties of Triangles
 
-![](https://i.imgur.com/dQyBkVO.png =400x)
+<img src="https://i.imgur.com/dQyBkVO.png =400x" style="zoom:33%;" />
 
-### Basic Traingle Formulas
+### Basic Triangle Formulas
 
 $\angle A+ \angle B + \angle C=180^\circ$
 $A+B+C=180^\circ$
@@ -212,14 +204,13 @@ $A+B+C=180^\circ$
 Perimeter of a circle
 $2S=a+b+c$
 
-Area of Triangle from Heron's Formuls
+Area of Triangle from Heron's Formulas
 $\Delta=\sqrt{S(S-a)(S-b)(S-c)}$
 where $S=\frac{a+b+c}{2}$ 
 
 ### Trigonometric ratios of sum of angles
 
-#### A+B = Pi-C
-
+#### $A+B = \pi-C$
 $\because A+B=\pi-C$
 
 $\sin(A+B)=\sin C$
@@ -234,7 +225,9 @@ $\tan(A+B)=-\tan C$
 $\tan(B+C)=-\tan A$
 $\tan(A+C)=-\tan B$
 
-#### (A+B)/2 = Pi/2 - C/2
+
+
+#### $\frac{(A+B)}{2} = \frac{\pi}{2} - \frac{C}{2}$
 
 $\because \frac{A+B}{2}=\frac{\pi}{2}-\frac{C}{2}$
 
@@ -250,11 +243,13 @@ $\tan(\frac{A+B}{2})=\cot\frac{C}{2}$
 $\tan(\frac{B+C}{2})=\cot\frac{A}{2}$
 $\tan(\frac{A+C}{2})=\cot\frac{B}{2}$
 
-#### tan(A+B+C)
+
+
+#### $\tan(A+B+C)$
 
 In $\triangle ABC$
 $\tan(A+B+C)=\frac{\tan A+\tan B + \tan C-\tan A\tan B \tan C}{1-\tan A\tan B - \tan B\tan C - \tan C \tan A}$
-Now, 
+Now,
 $\tan(A+B+C) = \tan(\pi) = 0 = \frac{a}{b}$
 $\implies a = 0$
 
@@ -267,15 +262,16 @@ $\cot B\cot C + \cot A \cot C + \cot A \cot B = 1$
 
 ##### Similar Formula, not related to properties of triangle
 
-Now, if $A+B+C=\frac{\pi}{2}$ then, 
+Now, if $A+B+C=\frac{\pi}{2}$ then,
 $\tan(A+B+C)=\tan(\frac{\pi}{2})=\frac{1}{0}=\frac{a}{b}$
 $\implies b = 0$
 $\implies 1-\tan A\tan B - \tan B\tan C - \tan C \tan A = 0$
 $\implies \tan A\tan B + \tan B\tan C + \tan C \tan A = 1$
 
+
 ### Identities in any Triangle
 
-#### 2A 2B 2C
+#### $2A$ $2B$ $2C$
 
 <small>In sin</small>
 $\sin2A+\sin2B+\sin2C=4\sin A\sin B\sin C$
@@ -298,7 +294,7 @@ $\cos2A+\cos2B+cos2C=-1-4\cos A\cos B\cos C$
 $\cos2A+\cos2B-cos2C=1-4\sin A\sin B\cos C$
 then negative will be cos
 
-#### A+B+C
+#### $A+B+C$
 
 <small>In sin</small>
 $\sin A+\sin B + \sin C=4\cos\frac{A}{2}cos\frac{B}{2}cos\frac{C}{2}$
@@ -308,6 +304,7 @@ $\sin A+\sin B + \sin C=4\cos\frac{A}{2}cos\frac{B}{2}cos\frac{C}{2}$
 $\sin A+\sin B - \sin C=4\sin\frac{A}{2}sin\frac{B}{2}cos\frac{C}{2}$
 <small>Invert which are positive in +ve form</small>
 
+
 <small>In cos</small>
 $\cos A+\cos B + \cos C=1+4\sin\frac{A}{2}sin\frac{B}{2}sin\frac{C}{2}$
 <small>$\because \frac{\pi}{2} - \theta$ so all positive and change ratio</small>
@@ -316,9 +313,11 @@ $\cos A+\cos B + \cos C=1+4\sin\frac{A}{2}sin\frac{B}{2}sin\frac{C}{2}$
 $\cos A+\cos B - \cos C=-1+4\cos\frac{A}{2}cos\frac{B}{2}sin\frac{C}{2}$
 <small>-1 + Invert which are positive in +ve form</small>
 
+
 <small>Notice: In case of negative invert from +ve from whichever are not negative.</small>
 
 ### Relation B/w side and angle (sine formula)
+
 
 $\sin A \propto a$
 $\sin B \propto b$
@@ -341,12 +340,14 @@ NOTE: Can only use either formula 1 or 2 in one question</small>
 
 ### cosine formula
 
+
 $\cos A=\frac{b^2+c^2-a^2}{2bc}$
 $\cos B=\frac{a^2+c^2-b^2}{2ac}$
 $\cos C=\frac{a^2+b^2-c^2}{2ab}$
 <small>Notice: One angle and all three sides relation</small>
 
 ### Projection formula
+
 
 $a=b\cos C+ c\cos B$
 $b=a\cos C+c\cos A$
@@ -390,18 +391,18 @@ $\tan\frac{C}{2}=\sqrt\frac{(S-a)(S-b)}{S(S-c)}$
 
 ### Circumcircle of a triangle
 
-![](https://i.imgur.com/AUVmJpU.png =400x)
+<img src="https://i.imgur.com/AUVmJpU.png =400x" style="zoom:33%;" />
 
 $R=\frac{a}{2\sin A}=\frac{b}{2\sin B}=\frac{c}{2\sin C}$
 
 ### Incenter of a triangle
 
-![](https://i.imgur.com/LfFY1Md.png =400x)
+<img src="https://i.imgur.com/LfFY1Md.png =400x" style="zoom:33%;" />
 
 $r=\frac{\Delta}{S}$
 $\Delta=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$
 
-## Inverse Trionometric Functions
+## Inverse Trigonometric Functions
 
 $\sin^{-1}x=\csc^{-1}\frac{1}{x}$
 $\cos^{-1}x=\sec^{-1}\frac{1}{x}$
@@ -414,13 +415,13 @@ $\sin^{-1}x+\cos^{-1}x=\frac{\pi}{2}$
 $\tan^{-1}x+\cot^{-1}x=\frac{\pi}{2}$
 $\sec^{-1}x+\csc^{-1}x=\frac{\pi}{2}$
 
-$\sin^{-1}(\sin x)=x$, $x\in[-\frac{\pi}{2}, \frac{\pi}{2}]$
-$\cos^{-1}(\cos x)=x$, $x\in[0, \pi]$
-$\sec^{-1}(\sec x)=x$, $x\in(-\frac{\pi}{2}, \frac{\pi}{2})$
+$\sin^{-1}(\sin x)=x$, $x\in[-\frac{\pi}{2},\frac{\pi}{2}]$
+$\cos^{-1}(\cos x)=x$, $x\in[0,\pi]$
+$\sec^{-1}(\sec x)=x$, $x\in(-\frac{\pi}{2},\frac{\pi}{2})$
 
-$\sin(\sin^{-1}x)=x$, $x\in[-1, 1]$
-$\cos(\cos^{-1}x)=x$, $x\in[-1, 1]$
-$\tan(\tan^{-1}x)=x$, $x\in[-1, 1]$
+$\sin(\sin^{-1}x)=x$, $x\in[-1,1]$
+$\cos(\cos^{-1}x)=x$, $x\in[-1,1]$
+$\tan(\tan^{-1}x)=x$, $x\in[-1,1]$
 
 $\sin^{-1}x+\sin^{-1}y=\sin^{-1}[x\sqrt{1-y^2}+y\sqrt{1-x^2}]$
 $\sin^{-1}x-\sin^{-1}y=\sin^{-1}[x\sqrt{1-y^2}-y\sqrt{1-x^2}]$
@@ -441,42 +442,15 @@ $3\tan^{-1}x=\tan^{-1}(\frac{3x-x^3}{1-3x^2})$
 
 |                |              Domain               |                 Range                  |
 | -------------- |:---------------------------------:|:--------------------------------------:|
-| $y=\sin x$     |            $\mathbb R$            |                $[-1, 1]$                |
-| $y=\sin^{-1}x$ |             $[-1, 1]$              |    $[-\frac{\pi}{2}, \frac{\pi}{2}]$    |
-| $y=\csc x$     |         $\mathbb R-n\pi$          |     $(-\infty, -1]\cup[1, \infty)$      |
-| $y=\csc^{-1}x$ |   $(-\infty, -1]\cup[1, \infty)$   | $[-\frac{\pi}{2}, \frac{\pi}{2}]-\{0\}$ |
-| $y=\cos x$     |            $\mathbb R$            |                $[-1, 1]$                |
-| $y=\cos^{-1}x$ |             $[-1, 1]$              |               $[0, \pi]$                |
-| $y=\sec x$     |            $\mathbb R$            |     $(-\infty, -1]\cup[1, \infty)$      |
-| $y=\sec^{-1}x$ |   $(-\infty, -1]\cup[1, \infty)$   |      $[0, \pi]-\{\frac{\pi}{2}\}$       |
+| $y=\sin x$     |            $\mathbb R$            |                $[-1,1]$                |
+| $y=\sin^{-1}x$ |             $[-1,1]$              |    $[-\frac{\pi}{2},\frac{\pi}{2}]$    |
+| $y=\csc x$     |         $\mathbb R-n\pi$          |     $(-\infty, -1]\cup[1,\infty)$      |
+| $y=\csc^{-1}x$ |   $(-\infty, -1]\cup[1,\infty)$   | $[-\frac{\pi}{2},\frac{\pi}{2}]-\{0\}$ |
+| $y=\cos x$     |            $\mathbb R$            |                $[-1,1]$                |
+| $y=\cos^{-1}x$ |             $[-1,1]$              |               $[0,\pi]$                |
+| $y=\sec x$     |            $\mathbb R$            |     $(-\infty, -1]\cup[1,\infty)$      |
+| $y=\sec^{-1}x$ |   $(-\infty, -1]\cup[1,\infty)$   |      $[0,\pi]-\{\frac{\pi}{2}\}$       |
 | $y=\tan x$     | $\mathbb R - (2n+1)\frac{\pi}{2}$ |          $(-\infty, \infty)$           |
-| $y=\tan^{-1}x$ |        $(-\infty, \infty)$        |    $(-\frac{\pi}{2}, \frac{\pi}{2})$    |
+| $y=\tan^{-1}x$ |        $(-\infty, \infty)$        |    $(-\frac{\pi}{2},\frac{\pi}{2})$    |
 | $y=\cot x$     |       $\mathbb R-\{n\pi\}$        |          $(-\infty, \infty)$           |
-| $y=\cot^{-1}x$ |        $(-\infty, \infty)$        |               $[0, \pi]$                |
-
-## Licensing and Links
-
-[All Mathematics Formula by Abhays here](README.md)
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-..
-..
-.
-.
-..
-.
-.
-.
-
-.
+| $y=\cot^{-1}x$ |        $(-\infty, \infty)$        |               $[0,\pi]$                |
