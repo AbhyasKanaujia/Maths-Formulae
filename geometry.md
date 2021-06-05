@@ -2,27 +2,34 @@
 
 [TOC]
 
-[All Mathematics Formula by Abhyas here](README.md)
-
-Please see [README](README.md#README) if this is the first time you are here.
-
 ## Basic Shapes
 
 ### Circle
 
-Area = $\pi r^2$
-Circumference = $\pi d=2\pi r$
+$\color{red}\text{Area} = \pi r^2$
+$\color{red}\text{Circumference} = \pi d=2\pi r$
 
 ### Line
 
-Distance between two poitns $(x_1, y_1)$ and $(x_2, y_2)$ $=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
+**Distance** $=\color{red}\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
 
-Mid point of two poitns $(x_1, y_1)$ and $(x_2, y_2)$ = $(\frac{x_2-x_1}{2}, \frac{y_2-y_1}{2})$
+### Area formula
 
-Getting point that is k part from $(x_1, y_1)$ to $(x_2, y_2)$ $=(x, y)=(x_1+k(x_2-x_1)+k(y_2-y_1)$
+$\text{For any number of given vertices} (x_1, y_1), (x_2, y_2),\dots,(x_n,y_n)\\
+\text{Area}=\left\{\color{red}\begin{array}{ll}\frac{1}{2}\left|\begin{array}{ll}
+x_1&y_1\\x_2&y_2\\\dots&\dots\\x_n&y_n\\x_1&y_1\end{array}\right|\\\frac{1}{2}(x_1y_2-x_2y_1+x_2y_3-x_3y_2+\dots+x_ny_1-x_1y_n)\end{array}\right.$
 
-## Licensing and Links
+Remember: If area of triangle formed by 3 points is 0 then the 3 points are **colinear**
 
-[All Mathematics Formula by Abhays here](README.md)
+### Section Formula
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+**Internal** in the ratio $m:n$ is $\color{red}\left(\frac{mx_2+nx_1}{m+n},\frac{my_2+ny_1}{m+n}\right)$ 
+
+**External** in the ratio $m:n$ is $\color{red}\left(\frac{mx_2-nx_1}{m-n},\frac{my_2-ny_1}{m-n}\right)$ 
+
+**Mid point** is $\color{red}(\frac{x_2-x_1}{2}, \frac{y_2-y_1}{2})$
+
+### Shifting of Origin
+
+$\color{red}x=X+h\\
+\color{red}y=Y+k$ 

@@ -5,7 +5,7 @@
 ## From Pythagoras Theorem
 $H^2=B^2+P^2$
 $\sin^2\theta+\cos^2\theta=1$
-$\csc^2\theta-\cot^2\theta=1$
+$\text{cosec }^2\theta-\cot^2\theta=1$
 $\sec^2\theta-\tan^2\theta=1$
 
 
@@ -17,7 +17,6 @@ $(\sin\theta\pm\cos\theta)^2=1\pm\sin2\theta$
 
 ## Circular Function
 <img src="https://i.imgur.com/EnNpCiI.png" style="zoom: 67%;" />
-
 
 360, 720, 1080, 1440, 1800
 
@@ -38,6 +37,14 @@ $\tan(n\pi-\theta)=-\tan\theta$
 $\sin(n\pi)=0$ <small>_because perpendicular is 0_</small>
 $\cos(n\pi)=(-1)^n$ <small>_because base eighter left or right of y axis_</small>
 $\tan(n\pi)=0$ <small>_because perpendicular is 0_</small>
+
+### $(2n+1)\frac{\pi}{2}$ 
+
+$\cos(2n+1)\frac{\pi}{2}=0\\
+\cos2n\frac{\pi}{2}=\cos \pi=(-1)^n$
+
+$\tan(2n+1)\frac{\pi}{2}=\infty[\because \text{denominator becomes 0 as cos odd pi/2 is 0}]\\
+\tan2n\frac{\pi}{2}=\tan n\pi=0$
 
 ### $-\theta$
 <small>_Because only $\cos$ is positive in IV_</small>
@@ -78,7 +85,7 @@ $\tan2\theta=\frac{2\tan\theta}{1-\tan^2\theta}$
 
 $\tan A + cotA = \frac{1}{\sin A \cos A}$
 $\quad\quad\quad\quad\quad\,\,\,\,\,=\frac{2}{\sin2A}$
-$\quad\quad\quad\quad\quad\,\,\,\,\,=2\csc2A$
+$\quad\quad\quad\quad\quad\,\,\,\,\,=2\text{cosec }2A$
 
 ### Triple Angle Identities $3A$
 
@@ -115,39 +122,39 @@ $\sin A\sin(A+60^\circ)\sin(A-60^\circ)=\frac{1}{4}\sin3A$
 $\cos A\cos(A+60^\circ)\cos(A-60^\circ)=\frac{1}{4}\cos3A$
 $\tan A+\tan(A+60^\circ)-\tan(A-60^\circ)=\tan3A$
 
-### $\cos A \cos2A \cos4A...$
+### $\cos A \cos2A \cos4A...$ 
 
-$\cos A\cos2A\cos4A=\frac{sin8A}{2^3\sin A}$
+$\cos A\cos2A\cos4A=\frac{\sin8A}{2^3\sin A}\\
+\text{Numerator:} \sin(2\times \text{largest angle})\\
+\text{Denominator:}2^\text{number of cos terms}\times \sin(\text{smallest angle)}$
 
-*Numerator: $\sin(2\times$ largest angle$)$
-Denominator: $2$<sup>number of cos terms</sup>$\times \sin($ smallest angle$)$*
+### $\tan$ Or $\cot$ and  $\frac{x}{2}$ Or $(\frac{\pi}{2} + x)$ 
 
-### $\tan$ Or $\cot$ and  $\frac{x}{2}$ Or $(\frac{\pi}{2} + x)$
+1. $\frac{1-\cos\theta}{\sin\theta}=\frac{\cancel{2}\sin^{\cancel{2}}\frac{\theta}{2}}{\cancel{2}\cancel{\sin\frac{\theta}{2}}\cos\frac{\theta}{2}}=\frac{\sin\frac{\theta}{2}}{\cos\frac{\theta}{2}}=\tan\frac{\theta}{2}$ 
+   $\frac{1+\cos\theta}{\sin\theta}=\frac{\cancel{2}\cos^{\cancel{2}}\frac{\theta}{2}}{\cancel{2}\sin\frac{\theta}{2}\cancel{\cos\frac{\theta}{2}}}=\frac{\cos\frac{\theta}{2}}{\sin\frac{\theta}{2}}=\cot\frac{\theta}{2}$
 
-$\frac{1+\cos\theta}{\sin\theta}=\cot\frac{\theta}{2}$
-$\frac{1-\cos\theta}{\sin\theta}=\tan\frac{\theta}{2}$
+2. $\frac{\cos\theta +\sin\theta}{\cos\theta-\sin\theta}=\frac{1+\tan{\theta}}{1-\tan\theta}=\tan(\frac{\pi}{4}+\theta)=\cot(\frac{\pi}{2}-\frac{\pi}{4}-\theta)=\cot(\frac{\pi}{4}-\theta)$
+   $\frac{\cos\theta -\sin\theta}{\cos\theta+\sin\theta}=\frac{1-\tan{\theta}}{1+\tan\theta}=\tan(\frac{\pi}{4}-\theta)=\cot(\frac{\pi}{2}-\frac{\pi}{4}+\theta)=\cot(\frac{\pi}{4}+\theta)$
+   
+3. $\frac{1+\sin\theta}{\cos\theta}=\frac{(\sin\frac{\theta}{2}+\cos\frac{\theta}{2})^2}{\cos^2\frac{\theta}{2}-\sin^2\frac{\theta}{2}}=\frac{(\sin\frac{\theta}{2}+\cos\frac{\theta}{2})\times\cancel{(\sin\frac{\theta}{2}+\cos\frac{\theta}{2})}}{\cancel{(\cos\frac{\theta}{2}+\sin\frac{\theta}{2})}\times(\cos\frac{\theta}{2}-\sin\frac{\theta}{2})}=\tan(\frac{\pi}{4}+\frac{\theta}{2})$
+   $\frac{1-\sin\theta}{\cos\theta}=\tan(\frac{\pi}{4}-\frac{\theta}{2})$
 
-$\frac{1+\sin\theta}{\cos\theta}=\tan(\frac{\pi}{4}+\frac{\theta}{2})$
-$\frac{1-\sin\theta}{\cos\theta}=\tan(\frac{\pi}{4}-\frac{\theta}{2})$
+4. $\frac{1+\sin\theta}{1-\sin\theta}=\tan^2(\frac{\pi}{4}+\frac{\theta}{2})$
+   $\frac{1-\sin\theta}{1+\sin\theta}=\cot^2(\frac{\pi}{4}+\frac{\theta}{2})$
 
-$\frac{1+\sin\theta}{1-\sin\theta}=\tan(\frac{\pi}{4}+\frac{\theta}{2})$
-$\frac{1-\sin\theta}{1+\sin\theta}=\cot(\frac{\pi}{4}+\frac{\theta}{2})$
-
-$\frac{1+\cos\theta}{1-\cos\theta}=\cot^2(\frac{\pi}{4}+\frac{\theta}{2})$
-$\frac{1-\cos\theta}{1+\cos\theta}=\tan^2(\frac{\pi}{4}+\frac{\theta}{2})$
-
-$\frac{\cos\theta +sin\theta}{\cos\theta-\sin\theta}=\tan(\frac{\pi}{4}+\theta)$
-$\frac{\cos\theta -sin\theta}{\cos\theta+\sin\theta}=\tan(\frac{\pi}{4}-\theta)$
+5. $\frac{1+\cos\theta}{1-\cos\theta}=\cot^2(\frac{\pi}{4}+\frac{\theta}{2})$
+   $\frac{1-\cos\theta}{1+\cos\theta}=\tan^2(\frac{\pi}{4}+\frac{\theta}{2})$
 
 
-### Range of Trigonometric expressions
+
+## Range of Trigonometric expressions
 
 $-1\le\sin\theta\le1$
 $-1\le\cos\theta\le1$
 $-\infty\le\tan\theta\le\infty$
 
 $\sec\theta\in(-\infty,-1]\cup[1, \infty)$
-$\csc\theta\in(-\infty,-1]\cup[1, \infty)$
+$\text{cosec }\theta\in(-\infty,-1]\cup[1, \infty)$
 
 $0\le\sin^2\theta\le1$
 $0\le\cos^2\theta\le1$
@@ -161,7 +168,7 @@ Period: $\frac{2\pi}{|a|}$
 $\quad\sin(ax+b)$
 $\quad\cos(ax+b)$
 $\quad\sec(ax+b)$
-$\quad\csc(ax+b)$
+$\quad\text{cosec }(ax+b)$
 
 Period: $\frac{\pi}{|a|}$
 $\quad\tan(ax+b)$
@@ -169,7 +176,7 @@ $\quad\cot(ax+b)$
 
 ## Trigonometric Equation
 
-### Type 1: $x = 0$
+### Type 1: $x=0$
 
 $\sin x = 0 \implies x = n\pi$
 $\tan x = 0 \implies x = n\pi$
@@ -178,9 +185,9 @@ $\cos x = 0 \implies x = (2n+1)\frac{\pi}{2}$
 $\cot x = 0 \implies x = (2n+1)\frac{\pi}{2}$
 
 $\sec x = 0 \implies x$ is not defined
-$\csc x = 0 \implies x$ is not defined
+$\text{cosec } x = 0 \implies x$ is not defined
 
-### Type 2: $\theta = \alpha$
+### Type 2: $\theta=\alpha$
 
 $sin\theta=\sin\alpha \implies x = n\pi+(-1)^n\alpha$
 $cos\theta=\cos\alpha \implies x = 2n\pi\pm\alpha$
@@ -210,8 +217,7 @@ where $S=\frac{a+b+c}{2}$
 
 ### Trigonometric ratios of sum of angles
 
-#### $A+B = \pi-C$
-$\because A+B=\pi-C$
+#### Sum of angles: $A+B = \pi-C$
 
 $\sin(A+B)=\sin C$
 $\sin(B+C)=\sin A$
@@ -227,7 +233,7 @@ $\tan(A+C)=-\tan B$
 
 
 
-#### $\frac{(A+B)}{2} = \frac{\pi}{2} - \frac{C}{2}$
+#### Half of sum of angles: $\frac{(A+B)}{2} = \frac{\pi}{2} - \frac{C}{2}$
 
 $\because \frac{A+B}{2}=\frac{\pi}{2}-\frac{C}{2}$
 
@@ -404,20 +410,26 @@ $\Delta=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$
 
 ## Inverse Trigonometric Functions
 
-$\sin^{-1}x=\csc^{-1}\frac{1}{x}$
+###  Property I
+
+$\sin^{-1}(\sin x)=x$, $x\in[-\frac{\pi}{2},\frac{\pi}{2}]$
+$\text{cosec}^{-1}(\text{cosec }x)=x$, $x\in[-\frac{\pi}{2},\frac{\pi}{2}]-\{0\}$ 
+$\tan^{-1}(\tan x)=x$, $x\in(-\frac{\pi}{2},\frac{\pi}{2})$
+
+$\cos^{-1}(\cos x)=x$, $x\in[0,\pi]$
+$\sec^{-1}(\sec x)=x$, $x\in[0,\pi]-\{\frac{\pi}{2}\}$ 
+$\cot^{-1}(\cot x)=x$, $x\in (0,\pi)$ 
+
+$\sin^{-1}x=\text{cosec }^{-1}\frac{1}{x}$
 $\cos^{-1}x=\sec^{-1}\frac{1}{x}$
 $\tan^{-1}x=\cot^{-1}\frac{1}{x}$
-$\csc^{-1}x=\sin^{-1}\frac{1}{x}$
+$\text{cosec }^{-1}x=\sin^{-1}\frac{1}{x}$
 $\sec^{-1}x=\cos^{-1}\frac{1}{x}$
 $\cot^{-1}x=\tan^{-1}\frac{1}{x}$
 
 $\sin^{-1}x+\cos^{-1}x=\frac{\pi}{2}$
 $\tan^{-1}x+\cot^{-1}x=\frac{\pi}{2}$
-$\sec^{-1}x+\csc^{-1}x=\frac{\pi}{2}$
-
-$\sin^{-1}(\sin x)=x$, $x\in[-\frac{\pi}{2},\frac{\pi}{2}]$
-$\cos^{-1}(\cos x)=x$, $x\in[0,\pi]$
-$\sec^{-1}(\sec x)=x$, $x\in(-\frac{\pi}{2},\frac{\pi}{2})$
+$\sec^{-1}x+\text{cosec }^{-1}x=\frac{\pi}{2}$
 
 $\sin(\sin^{-1}x)=x$, $x\in[-1,1]$
 $\cos(\cos^{-1}x)=x$, $x\in[-1,1]$
@@ -444,13 +456,25 @@ $3\tan^{-1}x=\tan^{-1}(\frac{3x-x^3}{1-3x^2})$
 | -------------- |:---------------------------------:|:--------------------------------------:|
 | $y=\sin x$     |            $\mathbb R$            |                $[-1,1]$                |
 | $y=\sin^{-1}x$ |             $[-1,1]$              |    $[-\frac{\pi}{2},\frac{\pi}{2}]$    |
-| $y=\csc x$     |         $\mathbb R-n\pi$          |     $(-\infty, -1]\cup[1,\infty)$      |
-| $y=\csc^{-1}x$ |   $(-\infty, -1]\cup[1,\infty)$   | $[-\frac{\pi}{2},\frac{\pi}{2}]-\{0\}$ |
+| $y=\text{cosec } x$     |         $\mathbb R-n\pi$          |     $(-\infty, -1]\cup[1,\infty)$      |
+| $y=\text{cosec }^{-1}x$ |   $(-\infty, -1]\cup[1,\infty)$   | $[-\frac{\pi}{2},\frac{\pi}{2}]-\{0\}$ |
+| $y=\tan x$     | $\mathbb R - (2n+1)\frac{\pi}{2}$ |          $(-\infty, \infty)$           |
+| $y=\tan^{-1}x$ |        $(-\infty, \infty)$        |    $(-\frac{\pi}{2},\frac{\pi}{2})$    |
 | $y=\cos x$     |            $\mathbb R$            |                $[-1,1]$                |
 | $y=\cos^{-1}x$ |             $[-1,1]$              |               $[0,\pi]$                |
 | $y=\sec x$     |            $\mathbb R$            |     $(-\infty, -1]\cup[1,\infty)$      |
 | $y=\sec^{-1}x$ |   $(-\infty, -1]\cup[1,\infty)$   |      $[0,\pi]-\{\frac{\pi}{2}\}$       |
-| $y=\tan x$     | $\mathbb R - (2n+1)\frac{\pi}{2}$ |          $(-\infty, \infty)$           |
-| $y=\tan^{-1}x$ |        $(-\infty, \infty)$        |    $(-\frac{\pi}{2},\frac{\pi}{2})$    |
 | $y=\cot x$     |       $\mathbb R-\{n\pi\}$        |          $(-\infty, \infty)$           |
 | $y=\cot^{-1}x$ |        $(-\infty, \infty)$        |               $[0,\pi]$                |
+
+### Increasing and Decreasing
+
+$\text{Increasing: }\left\{\begin{array}{l}\sin,\sec\&\tan\\
+\therefore \theta_1<\theta_2\\
+\implies \sin \theta_1<\sin \theta_2\end{array}\right.$
+
+$\text{Decreasing: }\left\{\begin{array}{l}\text{cosec},\cos\&\cot\\
+\therefore \theta_1<\theta_2\\
+\implies \cos \theta_1>\cos \theta_2\end{array}\right. $
+
+Same for Inverse.

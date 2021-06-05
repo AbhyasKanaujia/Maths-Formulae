@@ -1,0 +1,12 @@
+# Latex Non essential files
+
+__latexindent_temp.*
+_config.yml
+*.gz
+*.aux
+*.fs
+*.log
+*.fdb_latexmk
+*.fls
+*.tex
+*.toc

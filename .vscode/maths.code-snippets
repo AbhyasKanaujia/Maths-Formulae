@@ -1,0 +1,172 @@
+{
+	// Place your Maths-Formulae workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"latex for derivative of x with respect to x": {
+		"prefix": "ddx",
+		"body": [
+			"\\frac{d}{dx}"
+		],
+		"description": "latex for derivative of x with respect to x"
+	},
+	"Latex Image Insert": {
+		"prefix": "latex",
+		"body": [
+			"<img src=\"https://render.githubusercontent.com/render/math?math=${1:latex}\">${2}"
+		],
+		"description": "Latex Image Insert"
+	},
+	"latex fraction": {
+		"prefix": "frac",
+		"body": [
+			"\\frac{$1}{$2}$0"
+		],
+		"description": "latex fraction"
+	},
+	"latex squareroot": {
+		"prefix": "sqrt",
+		"body": [
+			"\\sqrt{$1}$0"
+		],
+		"description": "latex squareroot"
+	},
+	"latex arcsin": {
+		"prefix": "arcsin",
+		"body": [
+			"\\sin^{-1}$0"
+		],
+		"description": "latex arcsin"
+	},
+	"latex arcos": {
+		"prefix": "arccos",
+		"body": [
+			"\\cos^{-1}$0"
+		],
+		"description": "latex arcos"
+	},
+	"latex artan": {
+		"prefix": "arctan",
+		"body": [
+			"\\tan^{-1}$0"
+		],
+		"description": "latex artan"
+	},
+	"latex arcot": {
+		"prefix": "arccot",
+		"body": [
+			"\\cot^{-1}$0"
+		],
+		"description": "latex arcot"
+	},
+	"latex arcsec": {
+		"prefix": "arcsec",
+		"body": [
+			"\\sec^{-1}$0"
+		],
+		"description": "latex arcsec"
+	},
+	"latex arccsc": {
+		"prefix": "arccsc",
+		"body": [
+			"\\text{cosec }^{-1}$0"
+		],
+		"description": "latex arccsc"
+	},
+	"latex Integration": {
+		"prefix": "int",
+		"body": [
+			"\\int $0"
+		],
+		"description": "latex Integration"
+	},
+	"latex vertical matrix": {
+		"prefix": "vmat",
+		"body": [
+			"\\begin{vmatrix}$1\\end{vmatrix}"
+		],
+		"description": "latex vertical matrix"
+	},
+	"Math Blackborad Font I": {
+		"prefix": "I",
+		"body": [
+			"\\mathbb{I}"
+		],
+		"description": "Math Blackborad Font I"
+	},
+	"nCr form": {
+		"prefix": "comb",
+		"body": [
+			"\\,^{$1}C_{$2}$0"
+		],
+		"description": "nCr form"
+	},
+	"function": {
+		"prefix": "fx",
+		"body": [
+			"f(${1:'x})$0"
+		],
+		"description": "function"
+	},
+	"latex box matrix": {
+		"prefix": "bmat",
+		"body": [
+			"\\begin{bmatrix}$1\\end{bmatrix}"
+		],
+		"description": "latex box matrix"
+	},
+	"definite integral": {
+		"prefix": "dint",
+		"body": [
+			"\\int_${1:a}^${2:b}${3:f(x)}\\,d${4:x}$0"
+		],
+		"description": "definite integral"
+	},
+	"Vector Cross Product": {
+		"prefix": "cross",
+		"body": [
+			"\\vec{${1:a}}\\times\\vec{${2:b}}$0"
+		],
+		"description": "Vector Cross Product"
+	},
+	"Dot Product": {
+		"prefix": "vdot",
+		"body": [
+			"\\vec{${1:a}}\\cdot\\vec{${2:b}}$0"
+		],
+		"description": "Dot Product"
+	},
+	"Vector ": {
+		"prefix": "vector",
+		"body": [
+			"$1\\hat{i}${2:+}$3\\hat{j}${4:+}$5\\hat{k}"
+		],
+		"description": "Vector "
+	},
+	"Vector Triple Product": {
+		"prefix": "tripple",
+		"body": [
+			"[\\vec{${1:a}}\\quad\\vec{${2:b}}\\quad\\vec{${3:c}}]$0"
+		],
+		"description": "Vector Triple Product"
+	},
+	"Orthogonal Vector Triple Product": {
+		"prefix": "otripple",
+		"body": [
+			"[\\hat{${1:i}}\\quad\\hat{${2:j}}\\quad\\hat{${3:k}}]$0"
+		],
+		"description": "Vector Triple Product"
+	}
+}
